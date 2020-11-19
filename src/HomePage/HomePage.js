@@ -4,7 +4,7 @@ import './HomePage.css'
 const HomePage = () => {
   return (
     <>
-      <h2>Welcome to my website</h2>
+      <h2>CARLY<br />CLIFT</h2>
     </>
   )
 }
