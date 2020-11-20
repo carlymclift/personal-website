@@ -2,4 +2,8 @@
 
 body {
   font-family: Italiana;
+  border: 4em solid black;
+  height: 100vh;
+  margin: 0;
+  background-color: black;
 }
