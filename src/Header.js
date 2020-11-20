@@ -7,8 +7,8 @@ const Header = () => {
     <div className="header-sec">
       <Link className="nav-home-button" to='/'>HOME</Link>
       <div className="small-nav-sec"> 
-        <Link className="nav-button" to="/">PROJECTS</Link>
-        <Link className="nav-button" to="/">CONTACT</Link>
+        <Link className="nav-button" to="/projects">PROJECTS</Link>
+        <Link className="nav-button" to="/contact">CONTACT</Link>
       </div>
     </div>
   )
