@@ -1,0 +1,38 @@
+.projects-sec {
+  padding: 20px;
+  display: grid;
+  grid-gap: 20px;
+  justify-items: center;
+  height: 100vh;
+  overflow: auto;
+  margin-top: 5em;
+}
+
+.projects-heading {
+  display: flex;
+  justify-items: center;
+}
+
+.project-page {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  justify-items: center;
+  background-color: white;
+}
+
+.project-images {
+  width: 25vw;
+  border: 1px solid black;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-family: Italiana;
+}
