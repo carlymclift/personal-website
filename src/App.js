@@ -1,10 +1,11 @@
 import './App.css'
 import { Route } from 'react-router-dom'
-import HomePage from './HomePage/HomePage'
+import AboutPage from './AboutPage/AboutPage'
 import ProjectsPage from './ProjectsPage/ProjectsPage'
 import ContactPage from './ContactPage/ContactPage'
 import Header from './Header'
 import Footer from './Footer'
+import WelcomePage from './WelcomePage/WelcomePage'
 
 function App() {
   return (
@@ -15,7 +16,15 @@ function App() {
         exact path = "/"
         render={() => {
           return (
-            <HomePage />
+            <WelcomePage />
+          )
+        }}
+      />
+      <Route
+        exact path = "/about"
+        render={() => {
+          return (
+            <AboutPage />
           )
         }}
       />
