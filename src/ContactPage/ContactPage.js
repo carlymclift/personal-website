@@ -3,8 +3,14 @@ import './ContactPage.css'
 
 const ContactPage = () => {
   return (
-    <div className='home-page-sec'>
+    <div className='Contact-page'>
       <h2 className='name-heading' >Contact</h2>
+      <div className="contact-info" >
+        <a className="contact-email" href="mailto:carlymclift@gmail.com">carlymclift@gmail.com</a>
+        <a className="contact-text" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/carlyclift/">LinkedIn</a>
+        <a className="contact-text" target="_blank" rel="noreferrer" href="https://github.com/carlymclift/">Github</a>
+        <a className="contact-text" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/carlyclift/">Resume</a>
+      </div>
     </div>
   )
 }
