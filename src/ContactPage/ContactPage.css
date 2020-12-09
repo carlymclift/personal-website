@@ -1,0 +1,30 @@
+.Contact-page {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  justify-items: center;
+  background-color: white;
+  font-family: Rajdhani;
+  text-transform: uppercase;
+}
+
+.contact-info{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 20px;
+  justify-items: center;
+  height: 60vh;
+  overflow: auto;
+  margin-top: 5em;
+}
+
+.contact-email {
+  text-transform: lowercase;
+  color: gray
+}
+
+.contact-text {
+  color: gray
+}

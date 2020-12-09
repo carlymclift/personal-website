@@ -20,6 +20,15 @@
 }
 
 .nav-home-button {
-  font-size: 20px;
+  font-size: 30px;
   padding-top: .5em;
+  font-family: Italiana;
+  text-transform: uppercase;
+  padding: 1em;
+}
+
+.nav-button {
+  font-family: Rajdhani;
+  text-transform: uppercase;
+  margin-top: 1.5em;
 }

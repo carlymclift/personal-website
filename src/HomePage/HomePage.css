@@ -16,11 +16,14 @@ h2 {
   padding-left: 1em;
   padding-top: .5em;
   text-transform: uppercase;
+  font-family: Italiana;
+  font-weight: 100;
 }
 
 .head-shot {
   width: auto;
   height: 90%;
+  /* width: 30%; */
   padding: 40px;
   margin-right: 4em;
 }
@@ -31,9 +34,11 @@ h2 {
   text-transform: uppercase;
   margin-left: 100%;
   width: 17em;
+  font-family: Rajdhani;
 }
 
 .personal-description-text {
   padding: 40px;
   margin-left: 2em;
+  font-family: Rajdhani;
 }
