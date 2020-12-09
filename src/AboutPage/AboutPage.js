@@ -1,8 +1,8 @@
 import React from 'react'
-import './HomePage.css'
+import './AboutPage.css'
 import proPhoto from '../images/proPhoto.png'; // with import
 
-const HomePage = () => {
+const AboutPage = () => {
   return (
     <div className='home-page-sec'>
       <div>
@@ -15,4 +15,4 @@ const HomePage = () => {
   )
 }
 
-export default HomePage
+export default AboutPage
