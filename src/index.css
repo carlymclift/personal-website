@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Italiana');
+/* @import url('https://fonts.googleapis.com/css?family=Kosugi'); */
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
 
 body {
-  font-family: Italiana;
+  /* font-family: Italiana; */
   border: 4em solid black;
   height: 100vh;
   margin: 0;
