@@ -19,21 +19,21 @@ const ProjectsPage = () => {
     <div className='project-page'>
       <div>
         <h2 className='name-heading' >Projects</h2>
-        <p className="project-page-paragraph" >My technical experience was developed with agile methodologies, a strong sense of OOP, and TDD. I have experience working on solo and team projects. The ones featured on the right are all team projects that I did at my time at Turing</p>
+        <p className="project-page-paragraph" >Here, are some of the many projects I have worked on. 
+          All of which were developed with agile methodologies. I learned through an object oriented 
+          programming approach, and test driven development.<br />
+          I worked independently, with teams, and with pairs on projects each with a different 
+          deliverable and technology to focus on.</p>
       </div>
-      <div className='projects-sec' >
-        {/* <h2 className="project-name" >Explore Projects:</h2> */}
-        <div className="project" onClick={() => displayProjectPopup('careerDay')} >
+      <div className='projects-sec'>
+        <div className="project" key={1} onClick={() => displayProjectPopup('careerDay')} >
         <img className="project-images" src={careerDayPhoto} alt="Screenshot of Career Day App"></img>
-          {/* <h2 className="project-name">Career Day</h2> */}
         </div>
-        <div className="project" onClick={() => displayProjectPopup('cozyCocktails')} >
+        <div className="project" key={2} onClick={() => displayProjectPopup('cozyCocktails')} >
         <img className="project-images" src={cozyCocktailsPhoto} alt="Screenshot of Cozy Cocktails App"></img>
-          {/* <h2 className="project-name">Cozy Cocktails</h2> */}
         </div>
-        <div className="project" onClick={() => displayProjectPopup('rancidTomatillos')} >
+        <div className="project" key={3} onClick={() => displayProjectPopup('rancidTomatillos')} >
         <img className="project-images" src={rancidTomatillosPhoto} alt="Screenshot of Rancid Tomatillos App"></img>
-          {/* <h2 className="project-name">Rancid Tomatillos</h2> */}
         </div>
       </div>
       {showProject ? <Project displayProjectPopup={displayProjectPopup} selectedProject={selectedProject} /> : null}

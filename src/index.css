@@ -1,11 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Italiana');
-/* @import url('https://fonts.googleapis.com/css?family=Kosugi'); */
 @import url('https://fonts.googleapis.com/css?family=Rajdhani');
 
-body {
-  /* font-family: Italiana; */
-  border: 4em solid black;
-  height: 100vh;
+body,
+html {
+  /* border: 20px solid black; */
   margin: 0;
-  background-color: black;
+  max-width: 100vw;
+  overflow-x: none;
+}
+
+.name-heading {
+  font-size: 10vw;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-family: Italiana;
+}
+
+@media only screen and (min-width: 600px) {
+
+  body {
+    border: 5vh solid black;
+    margin: 0;
+    /* background-color: black; */
+  }
+
+  .name-heading {
+    font-size: 9vw;
+    font-weight: 100;
+    padding-left: 1em;
+    padding-top: .5em;
+    text-transform: uppercase;
+    font-family: Italiana;
+  }
+
 }

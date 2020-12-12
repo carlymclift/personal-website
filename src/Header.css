@@ -1,4 +1,5 @@
 .header-sec {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -8,8 +9,9 @@
 .small-nav-sec {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-evenly;
-  width: 40vw
+  width: 50vw
 }
 
 .nav-home-button,
@@ -17,18 +19,27 @@
   text-decoration: none;
   color: black;
   padding: 1em;
+  text-transform: uppercase;
 }
 
 .nav-home-button {
-  font-size: 30px;
-  padding-top: .5em;
+  font-size: 5vw;
   font-family: Italiana;
-  text-transform: uppercase;
-  padding: 1em;
 }
 
 .nav-button {
   font-family: Rajdhani;
-  text-transform: uppercase;
-  margin-top: 1.5em;
+}
+
+@media only screen and (min-width: 600px) {
+
+  .nav-home-button {
+    font-size: 30px;
+    margin-top: .5em;
+  }
+
+  .nav-button {
+    margin-top: 1.5em;
+  }
+
 }
