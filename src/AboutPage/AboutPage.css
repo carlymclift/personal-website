@@ -1,44 +1,52 @@
 .home-page-sec {
+  padding: 20px;
   display: flex;
-  flex-direction: row;
-  background-color: white;
-  justify-content: space-around;
-  height: 100vh;
+  flex-direction: column;
 }
 
 h2 {
   margin: 0;
 }
 
-.name-heading {
-  font-size: 9em;
-  font-weight: 100;
-  padding-left: 1em;
-  padding-top: .5em;
-  text-transform: uppercase;
-  font-family: Italiana;
-  font-weight: 100;
-}
-
 .head-shot {
-  width: auto;
-  height: 90%;
-  /* width: 30%; */
-  padding: 40px;
-  margin-right: 4em;
+  width: 90vw;
 }
 
 .sub-title {
-  transform: rotate(-90deg);
-  transform-origin: -0 0;
-  text-transform: uppercase;
-  margin-left: 100%;
-  width: 17em;
-  font-family: Rajdhani;
+  display: none;
 }
 
 .personal-description-text {
-  padding: 40px;
-  margin-left: 2em;
   font-family: Rajdhani;
+  overflow: auto;
+}
+
+@media only screen and (min-width: 600px) {
+
+  .home-page-sec {
+    flex-direction: row;
+  }
+
+  .head-shot {
+    width: auto;
+    height: 100vh;
+    padding: 40px;
+  }
+
+  .sub-title {
+    transform: rotate(-90deg);
+    transform-origin: -0 0;
+    text-transform: uppercase;
+    margin-left: 100%;
+    width: 17em;
+    font-family: Rajdhani;
+  }
+
+  .personal-description-text {
+    padding-left: 40px;
+    margin-left: 2em;
+    font-family: Rajdhani;
+    overflow: auto;
+  }
+
 }
