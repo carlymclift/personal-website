@@ -67,6 +67,11 @@
   margin-left: 2em;
 }
 
+.page-text-links {
+  text-decoration: none;
+  color: rgb(52, 189, 98)
+}
+
 @media only screen and (min-width: 600px) {
   
   .project-page {
