@@ -9,7 +9,7 @@ const ContactPage = () => {
         <a className="contact-text contact-email" href="mailto:carlymclift@gmail.com">carlymclift@gmail.com</a>
         <a className="contact-text" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/carlyclift/">LinkedIn</a>
         <a className="contact-text" target="_blank" rel="noreferrer" href="https://github.com/carlymclift/">Github</a>
-        <a className="contact-text" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/carlyclift/">Resume</a>
+        {/* <a className="contact-text" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/carlyclift/">Resume</a> */}
       </div>
     </div>
   )
