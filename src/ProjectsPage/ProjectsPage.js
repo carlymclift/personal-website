@@ -19,7 +19,9 @@ const ProjectsPage = () => {
     <div className='project-page'>
       <div>
         <h2 className='name-heading' >Projects</h2>
-        <p className="project-page-paragraph" >Here, are some of the many projects I have worked on. 
+        <p className="project-page-paragraph" >All featured projects use React and/or React Hooks. 
+          All completed during my time at Turing School of Software and Design, where we focused 
+          on developing through TDD and utilizing agile approaches. Here, are some of the many projects I have worked on. 
           All of which were developed with agile methodologies. I learned through an object oriented 
           programming approach, and test driven development.<br />
           I worked independently, with teams, and with pairs on projects each with a different 
