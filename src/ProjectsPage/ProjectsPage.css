@@ -63,6 +63,10 @@
   width: 60vw;
 }
 
+.links-sec {
+  margin-left: 2em;
+}
+
 @media only screen and (min-width: 600px) {
   
   .project-page {
@@ -98,9 +102,9 @@
   }
 
   .project-page-paragraph {
-    margin-left: 5vw;
-    font-size: 2vw;
-  }
+    margin-left: 10vw;
+    font-size: 1.5vw;
+   }
 
   .popup-images {
     width: 50vw;
@@ -110,6 +114,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+  }
+
+  .links-sec {
+    margin-left: 0;
   }
 
 }

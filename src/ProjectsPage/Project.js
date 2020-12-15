@@ -28,7 +28,7 @@ const Project = ( { displayProjectPopup, selectedProject } ) => {
             <ul>
               {techs}
             </ul>
-            <div>
+            <div className='links-sec' >
               <a href={selectedProject.site} target="_blank" className='popup-links' rel="noreferrer" >{selectedProject.title} Site</a><br />
               <a href={selectedProject.gitHub} target="_blank" className='popup-links' rel="noreferrer" >Github Repo</a>
             </div>
