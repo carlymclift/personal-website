@@ -11,7 +11,9 @@ const WelcomePage = () => {
           <h2 className='welcome-text' >Welcome</h2>
           <h2 className='smaller-text'>get to know me <Link to='/about'>here</Link></h2>
         </div>
-        <img className='mountain-pic' src={mountPic} alt='Professional head shot'></img>
+        <div className='image-container' >
+          <img className='mountain-pic' src={mountPic} alt='Professional head shot'></img>
+        </div>
       </div>
     </div>
   )
