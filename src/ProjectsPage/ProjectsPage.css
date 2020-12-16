@@ -13,7 +13,7 @@
 
 .project-page-paragraph {
   font-family: Rajdhani;
-  font-size: 4vw;
+  font-size: 3vw;
 }
 
 .project-box {
@@ -42,7 +42,7 @@
 }
 
 .close {
-  color: Black;
+  color: black;
   float: right;
   font-size: 2em;
 }
@@ -72,7 +72,18 @@
   color: rgb(52, 189, 98)
 }
 
-@media only screen and (min-width: 600px) {
+.popup-description-sec {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popup-description-paragraph {
+  width: 80%;
+}
+
+@media only screen and (min-width: 800px) {
   
   .project-page {
     grid-template-columns: repeat(2, 1fr);
@@ -122,6 +133,7 @@
   }
 
   .links-sec {
+    margin-top: 10%;
     margin-left: 0;
   }
 
