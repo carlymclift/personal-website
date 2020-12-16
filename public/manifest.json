@@ -3,12 +3,12 @@
   "name": "Carly Clift",
   "icons": [
     {
-      "src": "logos/origami192.png",
+      "src": "/logos/origami192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logos/origami512.png",
+      "src": "/logos/origami512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
