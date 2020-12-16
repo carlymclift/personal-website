@@ -19,11 +19,18 @@ const ProjectsPage = () => {
     <div className='project-page'>
       <div>
         <h2 className='name-heading' >Projects</h2>
-        <p className="project-page-paragraph" >Here, are some of the many projects I have worked on. 
-          All of which were developed with agile methodologies. I learned through an object oriented 
-          programming approach, and test driven development.<br />
-          I worked independently, with teams, and with pairs on projects each with a different 
-          deliverable and technology to focus on.</p>
+        <p className="project-page-paragraph" >
+          All featured projects were completed during my time at Turing School 
+          of Software and Design, where we focused on Test 
+          Driven Development (TDD) and practiced Agile methodologies. 
+          Each designed and built with a different deliverable and technology in mind.
+          When developing it's important for me to have a strong UI/UX 
+          designs, that are accessible and make sense to the user.
+          <br />
+          <br />
+          To see more of my project repositories, visit my
+          <a className="page-text-links" target="_blank" rel="noreferrer" href="https://github.com/carlymclift"> Github ➡</a>
+        </p>
       </div>
       <div className='projects-sec'>
         <div className="project" key={1} onClick={() => displayProjectPopup('careerDay')} >

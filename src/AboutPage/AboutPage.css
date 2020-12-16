@@ -9,11 +9,12 @@ h2 {
 }
 
 .head-shot {
-  width: 90vw;
+  width: 80vw;
+  align-self: center;
 }
 
 .sub-title {
-  display: none;
+  color: white;
 }
 
 .personal-description-text {
@@ -21,7 +22,7 @@ h2 {
   overflow: auto;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1100px) {
 
   .home-page-sec {
     flex-direction: row;
@@ -40,6 +41,7 @@ h2 {
     margin-left: 100%;
     width: 17em;
     font-family: Rajdhani;
+    color: black;
   }
 
   .personal-description-text {

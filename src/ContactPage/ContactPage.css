@@ -6,6 +6,7 @@
 
 .contact-info{
   margin-top: 20px;
+  margin-left: 3em;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -25,7 +26,7 @@
   text-transform: uppercase;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1000px) {
 
   .Contact-page {
     grid-template-columns: repeat(2, 1fr);
