@@ -23,7 +23,9 @@ const Project = ( { displayProjectPopup, selectedProject } ) => {
           <div className="top-sec-popup" >
             <img className="popup-images" src={image} alt="Screenshot of Career Day App"></img>
           </div>
-          <p>{selectedProject.description}</p>
+          <div className='popup-description-sec'>
+            <p className='popup-description-paragraph'>{selectedProject.description}</p>
+          </div>
           <div className='popup-bottom' >
             <ul>
               {techs}
