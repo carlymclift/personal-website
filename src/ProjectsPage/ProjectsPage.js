@@ -22,13 +22,13 @@ const ProjectsPage = () => {
         <p className="project-page-paragraph" >
           All featured projects were completed during my time at Turing School 
           of Software and Design, where we focused on Test 
-          Driven Development (TDD) and agile methodologies. 
-          Each project uses React and/or React Hooks and were designed 
-          and built on teams, in pairs or independently; 
-          All with a different deliverable and technology to focus on.
+          Driven Development (TDD) and practiced Agile methodologies. 
+          Each designed and built with a different deliverable and technology in mind.
+          When developing it's important for me to have a strong UI/UX 
+          designs, that are accessible and make sense to the user.
           <br />
           <br />
-          To see more project repositories, visit my
+          To see more of my project repositories, visit my
           <a className="page-text-links" target="_blank" rel="noreferrer" href="https://github.com/carlymclift"> Github ➡</a>
         </p>
       </div>
