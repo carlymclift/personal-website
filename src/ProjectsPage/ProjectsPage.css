@@ -98,6 +98,7 @@
 
   .project:hover {
     cursor: pointer;
+    transform: scale(1.08)
   }
 
   .project-images {
